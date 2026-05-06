@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\simulacionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simulacionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\iniciomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iniciomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\glow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\glow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\createborder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\createborder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\windcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\windcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\wallselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\wallclicreceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallclicreceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\clickpared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clickpared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\windmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\windmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\startmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\simulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simulacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\uni militar\\8vo semestre\\dise\u00F1o iii\\my project\\assets\\scripts\\cameraorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Simulacionmanager.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Simulacionmanager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Simulacionmanager.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Simulacionmanager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Simulacionmanager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:14:33.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Iniciomanager.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Iniciomanager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Iniciomanager.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Iniciomanager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Iniciomanager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T08:10:31.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Glow.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Glow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Glow.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Glow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Glow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T08:07:09.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateBorder.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\CreateBorder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CreateBorder.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\CreateBorder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CreateBorder.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T07:33:44.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Clickpared.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Clickpared.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Clickpared.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Clickpared.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Clickpared.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T04:20:42.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WallSelector.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\WallSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WallSelector.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\WallSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WallSelector.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAcwN8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T00:28:42.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Windmanager.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Windmanager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Windmanager.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Windmanager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Windmanager.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T23:40:06.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WIndcontroller.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\WIndcontroller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WIndcontroller.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\WIndcontroller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WIndcontroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T03:42:09.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StartManager.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\StartManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StartManager.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\StartManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StartManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T07:00:14.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WallClicreceptor.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\WallClicreceptor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WallClicreceptor.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\WallClicreceptor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WallClicreceptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T04:19:30.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "simulacion.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\simulacion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\simulacion.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\simulacion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\simulacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T23:42:39.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAA9wEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T23:53:31.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Spawnpoint.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Spawnpoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawnpoint.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Spawnpoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Spawnpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:05:36.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cameraorbit.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Cameraorbit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cameraorbit.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\Cameraorbit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cameraorbit.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T04:46:50.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T03:07:30.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\UNI MILITAR\\8VO SEMESTRE\\DISE\u00D1O III\\My project\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T00:07:25.761Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
