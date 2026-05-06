@@ -1,46 +1,34 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using TMPro;
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
 
-    [Header("UI General")]
     public Slider progressBar;
     public TextMeshProUGUI timerText;
 
-    [Header("Paneles")]
     public GameObject blowingPanel;
-    public GameObject finishedPanel;   // tu panel anterior (puedes desactivarlo si ya no lo usas)
-    public GameObject victoryPanel;    // ✅ Panel nuevo de victoria
+    public GameObject finishedPanel;
 
-    [Header("Victory Panel - Referencias")]
-    public TextMeshProUGUI victoryTitleText;   // "¡Ganaste!" o lo que quieras
-    public TextMeshProUGUI victoryTimeText;    // Muestra el tiempo final
-    public Button restartButton;
-    public Button continueButton;
-
-    [Header("Escenas")]
-    public string outroSceneName = "Salida"; 
+    [Header("Botón Saltar simulación")]
+    public Button skipButton; // Asignar en el Inspector
 
     private float elapsedTime = 0f;
     private bool counting = false;
 
-    // ─────────────────────────────────────────────────────────────
-    void Awake() => Instance = this;
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
         ResetUI();
 
-        // Asignar listeners a los botones
-        if (restartButton != null)
-            restartButton.onClick.AddListener(OnRestart);
-
-        if (continueButton != null)
-            continueButton.onClick.AddListener(OnContinue);
+        if (skipButton != null)
+            skipButton.onClick.AddListener(OnSkipClicked);
     }
 
     void Update()
@@ -48,70 +36,59 @@ public class UIManager : MonoBehaviour
         if (!counting) return;
 
         elapsedTime += Time.deltaTime;
+
         int min = (int)(elapsedTime / 60f);
         int sec = (int)(elapsedTime % 60f);
+
         timerText.text = $"{min:00}:{sec:00}";
     }
 
-    // ─── Mostrar UI de soplido ────────────────────────────────────
+    // ──────────────────────────────────────────────
+    // Botón Saltar
+    // ──────────────────────────────────────────────
+
+    void OnSkipClicked()
+    {
+        if (GameManager.Instance == null) return;
+        if (GameManager.Instance.currentPhase != GameManager.GamePhase.Falling) return;
+
+        GameManager.Instance.grainSpawner.SkipSpawning();
+
+        // Ocultar el botón una vez usado
+        if (skipButton != null)
+            skipButton.gameObject.SetActive(false);
+    }
+
+    // ──────────────────────────────────────────────
+    // Fases de UI
+    // ──────────────────────────────────────────────
+
     public void ShowBlowingUI()
     {
         blowingPanel.SetActive(true);
         counting = true;
         elapsedTime = 0f;
+
+        // El botón ya no tiene sentido en la fase de soplido
+        if (skipButton != null)
+            skipButton.gameObject.SetActive(false);
     }
 
-    // ─── Mostrar panel de victoria ────────────────────────────────
     public void ShowFinishedUI()
     {
         counting = false;
-
-        // Ocultar UI de juego
-        blowingPanel.SetActive(false);
-
-        // Mostrar panel de victoria después de un delay
-        // para que el usuario vea el logo emerger primero
-        StartCoroutine(ShowVictoryAfterDelay());
+        finishedPanel.SetActive(true);
     }
 
-    System.Collections.IEnumerator ShowVictoryAfterDelay()
+    public void UpdateProgressBar(float ratio)
     {
-        yield return new WaitForSeconds(9.5f);
-
-        // Tiempo final formateado
-        int min = (int)(elapsedTime / 60f);
-        int sec = (int)(elapsedTime % 60f);
-
-        if (victoryTitleText != null)
-            victoryTitleText.text = "¡Ganaste!";
-
-        if (victoryTimeText != null)
-            victoryTimeText.text = $"Tiempo: {min:00}:{sec:00}";
-
-        if (victoryPanel != null)
-            victoryPanel.SetActive(true);
+        progressBar.value = ratio;
     }
 
-    // ─── Botón Reiniciar ──────────────────────────────────────────
-    void OnRestart()
+    public float GetElapsedTime()
     {
-        // Ocultar panel antes de reiniciar
-        if (victoryPanel != null)
-            victoryPanel.SetActive(false);
-
-        GameManager.Instance.ResetSimulation();
+        return elapsedTime;
     }
-
-    // ─── Botón Continuar ──────────────────────────────────────────
-    void OnContinue()
-    {
-        SceneManager.LoadScene(outroSceneName);
-    }
-
-    // ─── Helpers públicos ─────────────────────────────────────────
-    public void UpdateProgressBar(float ratio) => progressBar.value = ratio;
-
-    public float GetElapsedTime() => elapsedTime;
 
     public void ResetUI()
     {
@@ -120,14 +97,13 @@ public class UIManager : MonoBehaviour
         counting = false;
 
         blowingPanel.SetActive(false);
-
-        if (finishedPanel != null)
-            finishedPanel.SetActive(false);
-
-        if (victoryPanel != null)
-            victoryPanel.SetActive(false);
+        finishedPanel.SetActive(false);
 
         if (timerText != null)
             timerText.text = "00:00";
+
+        // Mostrar el botón saltar al reiniciar (empieza la fase Falling de nuevo)
+        if (skipButton != null)
+            skipButton.gameObject.SetActive(true);
     }
 }
